@@ -1,5 +1,5 @@
 # RSheets
-This program will put Rick's requests onto Monday.com
+This program will put Rick's requests onto Monday.com, request information 
 
 Versions of python, VS, and modules used:
 - Python 3.7.8
@@ -27,7 +27,10 @@ I can't make automatic changes to status columns since those have to be changed 
 What this means is that the contents of the excel cell cannot affect the label it receives during import or board move
 
 There are three ways to carry out the goal, and one of them doesn't involve programming. However, all of them require Rick to import excel sheets to Monday.com.
-Method 1:
 1. Template with program - Rick will have a template that he'll fill out when he wants to request parts. The program filters out the non-requested parts and adds the necessary information of requests. A new excel sheet will be created with appropriate Monday.com format.
 2. Template without program - The necessary information that the program adds will already be on the template, removing the need for a program.
 3. No template, all program - Instead of a template with all the parts Rick could possibly need to request (which might not even be plausible), just get Rick to type in the parts he needs into command prompt and let the program make the excel sheet.
+
+Update 12/15/2020: Alex and I have decided to just do the third method. It'll probably be easier for Rick this way since he won't have to have a template stored on his computer nor will he have to come up with a list of possible parts he could request.
+
+

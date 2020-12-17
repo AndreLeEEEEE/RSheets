@@ -33,4 +33,6 @@ There are three ways to carry out the goal, and one of them doesn't involve prog
 
 Update 12/15/2020: Alex and I have decided to just do the third method. It'll probably be easier for Rick this way since he won't have to have a template stored on his computer nor will he have to come up with a list of possible parts he could request.
 
+Update 12/17/2020: I have sent the program executable to Rick. The only thing left to do is to wait for his feedback.
+
 

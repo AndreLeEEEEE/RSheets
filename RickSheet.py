@@ -40,7 +40,7 @@ def excel(requests):
             r_ow += 1
             # Column 6 data left blank so the default label will set in after pulse transfer
 
-    wb_obj.save("C:\\Users\\andre.le\\Downloads\\Sample Request.xlsx")
+    wb_obj.save("C:\\Users\\andre.le\\Desktop\\Sample Request.xlsx")
 
 def main():
     print("Welcome Rick Sr.")

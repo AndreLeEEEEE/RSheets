@@ -35,4 +35,6 @@ Update 12/15/2020: Alex and I have decided to just do the third method. It'll pr
 
 Update 12/17/2020: I have sent the program executable to Rick. The only thing left to do is to wait for his feedback.
 
+Update 12/29/2020: I have helped Rick through the process of importing excel data into Monday.com.
+
 

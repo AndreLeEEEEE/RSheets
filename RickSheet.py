@@ -1,5 +1,4 @@
 import openpyxl
-# Assume Rick won't input a zero anywhere
 
 def parts(requests, LC):
     loc_name = input("Enter the location name: ")
@@ -11,7 +10,7 @@ def parts(requests, LC):
     for index, part in enumerate(parts):
         requests[loc_name].append([part])
         while(not LC):
-            qty = input(f"How much for {part}: ")
+            qty = input(f"How much for {part}?: ")
             if not qty.isdigit():
                 print("Error: Your input wasn't a digit or was negative\nTry again")
             elif int(qty) is 0:
@@ -25,7 +24,7 @@ def excel(requests):
     wb_obj = openpyxl.Workbook()  # Create a new excel workbook
     sheet_obj = wb_obj.active  # Get the current (only) sheet and store it into an object
 
-    headers = ["Part No", "Qty", "Location", "Status", "Request From"]
+    headers = ["part number", "qty", "location", "Status", "Request From"]
     for index in range(2, 7):
         sheet_obj.cell(row=1, column=index).value = headers[index-2]
 
@@ -40,7 +39,7 @@ def excel(requests):
             r_ow += 1
             # Column 6 data left blank so the default label will set in after pulse transfer
 
-    wb_obj.save("C:\\Users\\andre.le\\Desktop\\Sample Request.xlsx")
+    wb_obj.save("Sample Request.xlsx")
 
 def main():
     print("Welcome Rick Sr.")

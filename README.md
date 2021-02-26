@@ -4,7 +4,7 @@ This program will put Rick's requests onto Monday.com, request information
 Versions of python, VS, and modules used:
 - Python 3.7.8
 - Openpyxl 3.0.6
-- Visual Studio 2019, 16.8.4
+- Visual Studio 2019, 16.8.6
 
 Requirements: 
 - None yet
